@@ -1,0 +1,142 @@
+    1  mk dir
+    2  mkdir portfolioPage
+    3  cd portfolioPage
+    4  touch portfolioPage.html
+    5  ..
+    6  mkdir htmldemo
+    7  cd htmldemo
+    8  touch index.html
+    9  c9 index.html
+   10  cd htmldemo
+   11  touch 1hrPage
+   12  cd unixstuff
+   13  mv science.bak backups/.
+   14  ls backups
+   15  mkdir backups
+   16  ..
+   17  mv science.bak backups/.
+   18  ls
+   19  ls backups
+   20  cd unixstuuf
+   21  unixstuff/
+   22  cd unixstuff/
+   23  mv science.bak backups/.
+   24  cp sciene.txt tempfile.txt
+   25  cp science.txt tempfile.txt
+   26  rm tempfile.txt
+   27  mkdir tempstuff
+   28  rmdir tempstuff/
+   29  clear
+   30  cat science.txt 
+   31  less science.txt 
+   32  ..
+   33  unixstuff
+   34  cd rhode\ island
+   35  cd unix101
+   36  cd rhode island
+   37  ..
+   38  cd rhode\ island
+   39  ..
+   40  cd rhode\ island/
+   41  ls ../island/
+   42  mkdir providence warwick
+   43  ls
+   44  mkdir warick
+   45  ls
+   46  ls -l
+   47  man ls
+   48  cd providence/
+   49  touch 475valleyst
+   50  ls -l
+   51  ls
+   52  ls -l
+   53  echo CareerDevs
+   54  echo CareerDevs 475valleyst 
+   55  echo CareerDevs > 475valleyst 
+   56  ls -l
+   57  cat 475valleyst 
+   58  touch waterfire
+   59  echo waterfirea  > 475valleyst 
+   60  cat 475valleyst 
+   61  echo waterfire > 475valleyst 
+   62  cat
+   63  cd unixstuff
+   64  cd backups
+   65  cat
+   66  cat list1
+   67  cat
+   68  cat list1
+   69  cat > list1
+   70  cat list1
+   71  cat > list2
+   72  cat list2
+   73  cat >> list1
+   74  cat list1
+   75  cat list1 list2 > biglist
+   76  cat biglist
+   77  sort
+   78  sort < biglist
+   79  sort < biglist > slist
+   80  cat slist
+   81  who
+   82  who > names.txt
+   83  who | sort
+   84  who | wc -1
+   85  who | wc -l
+   86  cat list1 list2 | grep p | sort
+   87  history to history.txt
+   88  history > history.txt
+   89  ..
+   90  ls list*
+   91  ls *list
+   92  cd backups
+   93  ls list*
+   94  ls *list
+   95  ls ?list
+   96  man wc
+   97  whatis wc
+   98  apropos keyword
+   99  apropos copy
+  100  ls -l
+  101  chmod go-rwx biglist
+  102  chmod a+rw biglist
+  103  chmod go-rwx science.txt
+  104  chmod go-rwx backups
+  105  ls -;
+  106  ls -l
+  107  ps
+  108  sleep 10
+  109  sleep 10 &
+  110  sleep 1000
+  111  kill %jobnumber
+  112  job
+  113  jobs
+  114  sleep 100 &
+  115  jobs
+  116  kill %4
+  117  kill %1
+  118  sleep 100 &
+  119  ps
+  120  kill 1522
+  121  ps
+  122  history > history.txt 
+  123  quota -v
+  124  df .
+  125  du -s *
+  126  ls -l science.txt
+  127  gzip science.txt
+  128  gunzip science.txt.gz
+  129  zcat science.txt.gz
+  130  gzip science.txt
+  131  zcat science.txt.gz
+  132  zcat science.txt.gz | less
+  133  file *
+  134  diff file1 file2
+  135  find . -name "*.txt" -print
+  136  find . -size +1M -ls
+  137  history (show command history list)
+  138  history
+  139  find . -size +1M -ls
+  140  ..
+  141  set history=100
+  142  history > history.txt
